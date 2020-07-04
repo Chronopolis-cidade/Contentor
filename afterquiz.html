@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>afterquiz</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="afterquiz.css">
+</head>
+
+<body>
+
+    <form action="/action_page.php" onsubmit="return myFunction()">
+
+        <div class="ola"> Como proceder no dia de amanhã: <br>
+            <br>
+        </div>
+        <div class="ola"> Número do horário do cidadão: # <input type="text" id="age" size="20" name="age"></div>
+        <br>
+        <input type="submit" value="Submeter" class="ola">
+
+    </form>
+
+    <div id="n451" style="display: none">
+        <p>O cidadão 451 é chamado a consultar CHRONOPOLIS às (CHR+36):<br>
+            <br>
+            1H<br>
+            13H<br>
+            25H<br>
+        </p>
+    </div>
+
+    <div id="n392" style="display: none">
+        <p>O cidadão 392 é chamado a consultar CHRONOPOLIS às:<br>
+            <br>
+            2H<br>
+            14H<br>
+            26H<br>
+        </p>
+    </div>
+
+    <div id="n420" style="display: none">
+        <p>O cidadão 420 é chamado a consultar CHRONOPOLIS às:<br>
+            <br>
+            3H<br>
+            15H<br>
+            27H<br>
+        </p>
+    </div>
+
+    <div id="n699" style="display: none">
+        <p>O cidadão 699 é chamado a consultar CHRONOPOLIS às:<br>
+            <br>
+            4H<br>
+            16H<br>
+            28H<br>
+        </p>
+    </div>
+
+    <div id="n543" style="display: none">
+        <p>O cidadão 543 é chamado a consultar CHRONOPOLIS às:<br>
+            <br>
+            5H<br>
+            17H<br>
+            29H<br>
+        </p>
+    </div>
+
+    <div id="n291" style="display: none">
+        <p>O cidadão 291 é chamado a consultar CHRONOPOLIS às:<br>
+            <br>
+            6H<br>
+            18H<br>
+            30H<br>
+        </p>
+    </div>
+
+    <div id="n704" style="display: none">
+        <p>O cidadão 704 é chamado a consultar CHRONOPOLIS às:<br>
+            <br>
+            7H<br>
+            19H<br>
+            31H<br>
+        </p>
+    </div>
+
+    <div id="n547" style="display: none">
+        <p>O cidadão 547 é chamado a consultar CHRONOPOLIS às:<br>
+            <br>
+            8H<br>
+            20H<br>
+            32H<br>
+        </p>
+    </div>
+
+    <div id="n148" style="display: none">
+        <p>O cidadão 148 é chamado a consultar CHRONOPOLIS às:<br>
+            <br>
+            9H<br>
+            21H<br>
+            33H<br>
+        </p>
+    </div>
+
+    <script>
+        function myFunction() {
+            var age = document.getElementById("age").value;
+            var a = document.getElementById('n451');
+            var b = document.getElementById('n392');
+            var c = document.getElementById('n420');
+            var d = document.getElementById('n699');
+            var e = document.getElementById('n543');
+            var f = document.getElementById('n291');
+            var g = document.getElementById('n704');
+            var h = document.getElementById('n547');
+            var i = document.getElementById('n148');
+            submitOK = "true";
+
+
+            if (age == 451 || age == 392 || age == 420 || age == 699 || age == 543 || age == 291 || age == 704 || age ==
+                547 || age == 148) {
+
+                if (age == 451) {
+                    a.style.display = 'block';
+                    b.style.display = 'none';
+                    c.style.display = 'none';
+                    d.style.display = 'none';
+                    e.style.display = 'none';
+                    f.style.display = 'none';
+                    g.style.display = 'none';
+                    h.style.display = 'none';
+                    i.style.display = 'none';
+                    submitOK = "false";
+                }
+
+                if (age == 392) {
+                    a.style.display = 'none';
+                    b.style.display = 'block';
+                    c.style.display = 'none';
+                    d.style.display = 'none';
+                    e.style.display = 'none';
+                    f.style.display = 'none';
+                    g.style.display = 'none';
+                    h.style.display = 'none';
+                    i.style.display = 'none';
+                    submitOK = "false";
+                }
+
+                if (age == 420) {
+                    a.style.display = 'none';
+                    b.style.display = 'none';
+                    c.style.display = 'block';
+                    d.style.display = 'none';
+                    e.style.display = 'none';
+                    f.style.display = 'none';
+                    g.style.display = 'none';
+                    h.style.display = 'none';
+                    i.style.display = 'none';
+                    submitOK = "false";
+                }
+
+                if (age == 699) {
+                    a.style.display = 'none';
+                    b.style.display = 'none';
+                    c.style.display = 'none';
+                    d.style.display = 'block';
+                    e.style.display = 'none';
+                    f.style.display = 'none';
+                    g.style.display = 'none';
+                    h.style.display = 'none';
+                    i.style.display = 'none';
+                    submitOK = "false";
+                }
+
+                if (age == 543) {
+                    a.style.display = 'none';
+                    b.style.display = 'none';
+                    c.style.display = 'none';
+                    d.style.display = 'none';
+                    e.style.display = 'block';
+                    f.style.display = 'none';
+                    g.style.display = 'none';
+                    h.style.display = 'none';
+                    i.style.display = 'none';
+                    submitOK = "false";
+                }
+
+                if (age == 291) {
+                    a.style.display = 'none';
+                    b.style.display = 'none';
+                    c.style.display = 'none';
+                    d.style.display = 'none';
+                    e.style.display = 'none';
+                    f.style.display = 'block';
+                    g.style.display = 'none';
+                    h.style.display = 'none';
+                    i.style.display = 'none';
+                    submitOK = "false";
+                }
+
+                if (age == 704) {
+                    a.style.display = 'none';
+                    b.style.display = 'none';
+                    c.style.display = 'none';
+                    d.style.display = 'none';
+                    e.style.display = 'none';
+                    f.style.display = 'none';
+                    g.style.display = 'block';
+                    h.style.display = 'none';
+                    i.style.display = 'none';
+                    submitOK = "false";
+                }
+
+                if (age == 547) {
+                    a.style.display = 'none';
+                    b.style.display = 'none';
+                    c.style.display = 'none';
+                    d.style.display = 'none';
+                    e.style.display = 'none';
+                    f.style.display = 'none';
+                    g.style.display = 'none';
+                    h.style.display = 'block';
+                    i.style.display = 'none';
+                    submitOK = "false";
+                }
+
+                if (age == 148) {
+                    a.style.display = 'none';
+                    b.style.display = 'none';
+                    c.style.display = 'none';
+                    d.style.display = 'none';
+                    e.style.display = 'none';
+                    f.style.display = 'none';
+                    g.style.display = 'none';
+                    h.style.display = 'none';
+                    i.style.display = 'block';
+                    submitOK = "false";
+                }
+            } else {
+                a.style.display = 'none';
+                b.style.display = 'none';
+                c.style.display = 'none';
+                d.style.display = 'none';
+                e.style.display = 'none';
+                f.style.display = 'none';
+                g.style.display = 'none';
+                h.style.display = 'none';
+                i.style.display = 'none';
+                alert("Número de horário inválido");
+                submitOK = "false";
+            }
+
+            if (submitOK == "false") {
+                return false;
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>
