@@ -1,0 +1,210 @@
+@media only screen and (max-width: 1250px) {
+  #body-content {
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #body-home {
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #main-container {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+  iframe {
+    width: 100%;
+    height: 500px;
+  }
+  .navbar {
+    width: 60px;
+    background-color: white;
+    z-index: 20;
+    padding-top: 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 0px 0px 2px;
+            box-shadow: 0px 0px 2px;
+  }
+  .change {
+    right: 0px;
+  }
+  .nav-icon {
+    top: 15px;
+    right: 10px;
+    z-index: 20;
+  }
+  .sobre-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sobre-text {
+    width: 70%;
+  }
+  .sobre-image {
+    width: 100%;
+    height: auto;
+    background-image: url(images/sobre.png);
+    background-position: right;
+    margin-left: 0%;
+    position: relative;
+    margin-top: 60px;
+  }
+  .authors-text {
+    position: relative;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    bottom: 0px;
+  }
+  .authors-text-2 {
+    width: 50%;
+    text-align: left;
+  }
+  .crimes-text-box {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .crimes-text-1 {
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+  .crimes-text-2 {
+    width: 70%;
+    margin-top: 0px;
+    margin-bottom: 120px;
+  }
+  .crimes-text-3 {
+    width: 30%;
+    margin-left: 0%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  iframe {
+    width: 100%;
+    height: 250px;
+  }
+  #body-home {
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #body-content {
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .title {
+    font-family: Felix;
+    font-size: 40px;
+  }
+  .sub-title {
+    font-family: Felix;
+    font-size: 16px;
+    text-align: center;
+  }
+  .title-3 {
+    font-family: Felix;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .sobre-text {
+    width: 100%;
+  }
+  .sobre-image {
+    background-position: center;
+  }
+  .authors-text-2 {
+    width: 70%;
+  }
+  .metropolis-container {
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+  }
+  .metropolis-text {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  #body-ficcao {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/Elipse.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .btn-ficcao {
+    -webkit-transition: -webkit-filter 500ms ease-in-out;
+    transition: -webkit-filter 500ms ease-in-out;
+    transition: filter 500ms ease-in-out;
+    transition: filter 500ms ease-in-out, -webkit-filter 500ms ease-in-out;
+    -webkit-filter: drop-shadow(0px 0px 10px);
+            filter: drop-shadow(0px 0px 10px);
+    -webkit-animation: rotate 8s linear infinite;
+            animation: rotate 8s linear infinite;
+    -webkit-transform: rotateZ(0);
+            transform: rotateZ(0);
+  }
+  .crimes-text-1 {
+    width: 90%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  .crimes-text-2 {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 120px;
+  }
+  .crimes-text-3 {
+    width: 70%;
+    margin-left: 0%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .manual-text {
+    width: 90%;
+    margin-top: 40px;
+  }
+}
+/*# sourceMappingURL=style_query.css.map */

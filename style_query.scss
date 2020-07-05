@@ -1,0 +1,305 @@
+@media only screen and (max-width:1250px){
+
+    #body-content {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    #body-home {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    #main-container {
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 500px;
+    }
+
+
+    .navbar {
+        width: 60px;
+        background-color: white;
+        z-index: 20;
+        padding-top: 30px;
+        box-sizing: border-box;
+        box-shadow: (0px 0px 2px);
+    
+    }
+    
+    .change {
+        right: 0px;
+    }
+    
+    .nav-icon {
+        top: 15px;
+        right: 10px;
+        z-index: 20;
+    }
+    
+
+
+
+
+
+    //          SOBRE
+
+
+
+.sobre-container {
+    flex-direction: column;
+}
+
+
+.sobre-text {
+    width: 70%;
+}
+
+
+
+.sobre-image {
+    width: 100%;
+    height: auto;
+    background-image: url(images/sobre.png);
+    background-position: right;
+    margin-left: 0%;
+    position: relative;
+    margin-top: 60px;
+
+}
+
+
+.authors-text {
+    position: relative;
+    justify-content: flex-start;
+    bottom: 0px;
+}
+
+
+.authors-text-2 {
+    width: 50%;
+    text-align: left;
+}
+
+
+
+//          CRIMES
+
+
+
+.crimes-text-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.crimes-text-1 {
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+
+.crimes-text-2 {
+    width: 70%;
+    margin-top: 0px;
+    margin-bottom: 120px;
+}
+
+.crimes-text-3 {
+    width: 30%;
+    margin-left: 0%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px){
+
+
+
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+
+//              HOME
+
+
+    #body-home {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+#body-content {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+    .title {
+        font-family: Felix;
+        font-size: 40px;
+    
+    }
+    
+    .sub-title {
+        font-family: Felix;
+        font-size: 16px;
+        text-align: center;
+    
+    }
+
+    .title-3 {
+        font-family: Felix;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+
+
+
+
+ //          SOBRE
+
+
+.sobre-text {
+    width: 100%;
+}
+
+
+
+.sobre-image {
+    background-position: center;
+
+}
+
+.authors-text-2 {
+    width: 70%;
+}
+
+
+//          METROPOLIS
+
+.metropolis-container {
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+
+.metropolis-text {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+
+//          FICCAO
+
+
+#body-ficcao {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/Elipse.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-ficcao {
+    transition: filter 500ms ease-in-out;
+    filter: drop-shadow(0px 0px 10px);
+    animation: rotate 8s linear infinite;
+    transform: rotateZ(0);
+}
+
+
+//          CRIMES
+
+
+.crimes-text-1 {
+    width: 90%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+
+.crimes-text-2 {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 120px;
+}
+
+.crimes-text-3 {
+    width: 70%;
+    margin-left: 0%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+//          MANUAL
+
+.manual-text {
+    width: 90%;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+    
+}
