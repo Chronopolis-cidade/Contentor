@@ -8,6 +8,10 @@
   src: url(fonts/Sprat-Regular.otf);
 }
 
+body {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
 #body-home {
   width: 100vw;
   height: 100vh;
@@ -642,12 +646,14 @@ img {
   position: relative;
 }
 
-.prew,
-.next {
+#nav_button {
   position: absolute;
-  top: 0%;
+  top: 50%;
   font-family: Sprat;
   font-size: 60px;
+  line-height: 0px;
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
   border: none;
   background-color: transparent;
   margin: 0px;
@@ -658,24 +664,23 @@ img {
   transition: -webkit-filter 250ms ease-in-out;
   transition: filter 250ms ease-in-out;
   transition: filter 250ms ease-in-out, -webkit-filter 250ms ease-in-out;
+  cursor: pointer;
 }
 
-.next {
+.right {
   right: 0px;
 }
 
-.prew {
+.left {
   left: 00px;
 }
 
-.prew:hover,
-.next:hover {
+#nav_button:hover {
   -webkit-filter: drop-shadow(0px 0px 5px black);
           filter: drop-shadow(0px 0px 5px black);
 }
 
-.prew:focus,
-.next:focus {
+#nav_button:focus {
   cursor: pointer;
   outline: inherit;
   border: none;
